@@ -1,0 +1,107 @@
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+.navbar {
+  background-color: #343a40;
+}
+
+.navbar-brand {
+  color: #28a745;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+.navbar-brand:hover {
+  color: #1f8d47;
+}
+
+ul.navbar-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-nav > li {
+  margin-right: 15px;
+}
+
+.navbar-nav > li > a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav > li > a:hover {
+  color: #1f8d47;
+  font-size: larger;
+}
+
+
+.form-control {
+  color: #000;
+  border-color: #343a40 /* Border color */
+}
+
+.form-control::placeholder {
+  color: #6c757d; /* Placeholder text color */
+}
+
+.form-control:focus {
+  color: #000;
+  border-color: #545b62;
+  box-shadow: 0 0 0 0.25rem rgba(40, 167, 69, 0.25); /* Focus shadow color */
+}
+
+.btn-outline-success {
+  color: #fff;
+  border-color: #28a745;
+  background-color: #28a745;
+}
+
+.btn-outline-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+    color: #fff;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+h1 {
+  color: #28a745;
+}
+
+.card {
+  background-color: #343a40;
+  color: #fff;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  color: #28a745;
+}
+
+.card-text {
+  color: #ccc;
+}
+
+.btn-primary {
+  background-color: #28a745;
+  border-color: #28a745;
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+  color: #fff;
+}
